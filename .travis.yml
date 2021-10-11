@@ -1,7 +1,6 @@
 language: objective-c
-xcode_project: ConfigCIProject.xcworkspace # path to your xcodeproj folder
+xcode_project: ConfigCIProject.xcodeproj # path to your xcodeproj folder
 xcode_scheme: ConfigCIProject
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 before_install:
-  - bundle install
-  - bundle exec pod install --repo-update
+  - pod install
