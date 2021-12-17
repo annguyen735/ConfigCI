@@ -19,8 +19,10 @@
 
 /* Begin PBXFileReference section */
 		2690235200DCC88A770CBBE9 /* Pods-ConfigCI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigCI.release.xcconfig"; path = "Target Support Files/Pods-ConfigCI/Pods-ConfigCI.release.xcconfig"; sourceTree = "<group>"; };
-		2941FDD9F5AEFA1B4C68C357 /* Pods____cookiecutter_project_name___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____cookiecutter_project_name___.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38FB2A4D271426F900C002F9 /* ConfigCIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConfigCIProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2941FDD9F5AEFA1B4C68C357 /* Pods____cookiecutter_project_name___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____cookiecutter_project_name___.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		383CD134276C430B00C0B02E /* ConfigCIProject.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConfigCIProject.xctestplan; sourceTree = "<group>"; };
+		383CD135276C432F00C0B02E /* ConfigCIProject.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ConfigCIProject.xctestplan; sourceTree = "<group>"; };
+		38FB2A4D271426F900C002F9 /* ConfigCIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfigCIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FB2A50271426F900C002F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38FB2A52271426F900C002F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		38FB2A54271426F900C002F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,7 +33,7 @@
 		38FB2A61271426FA00C002F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		568F692EEA45045817B3A52C /* Pods-ConfigCIProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigCIProject.debug.xcconfig"; path = "Target Support Files/Pods-ConfigCIProject/Pods-ConfigCIProject.debug.xcconfig"; sourceTree = "<group>"; };
 		899D322216DFA40EB171484B /* Pods-ConfigCI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigCI.debug.xcconfig"; path = "Target Support Files/Pods-ConfigCI/Pods-ConfigCI.debug.xcconfig"; sourceTree = "<group>"; };
-		B3BC6F405CCF5D5A79D2D9EB /* Pods____cookiecutter_directory_name___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____cookiecutter_directory_name___.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BC6F405CCF5D5A79D2D9EB /* Pods____cookiecutter_directory_name___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____cookiecutter_directory_name___.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAE82E14D9B6B58EFBD633C /* Pods-ConfigCIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigCIProject.release.xcconfig"; path = "Target Support Files/Pods-ConfigCIProject/Pods-ConfigCIProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,13 +73,15 @@
 				38FB2A50271426F900C002F9 /* AppDelegate.swift */,
 				38FB2A52271426F900C002F9 /* SceneDelegate.swift */,
 				38FB2A54271426F900C002F9 /* ViewController.swift */,
+				383CD134276C430B00C0B02E /* ConfigCIProject.xctestplan */,
+				383CD135276C432F00C0B02E /* ConfigCIProject.xctestplan */,
 				38FB2A56271426F900C002F9 /* Main.storyboard */,
 				38FB2A5C271426FA00C002F9 /* Assets.xcassets */,
 				38FB2A5E271426FA00C002F9 /* LaunchScreen.storyboard */,
 				38FB2A61271426FA00C002F9 /* Info.plist */,
 				38FB2A59271426F900C002F9 /* DemoCookieCutter.xcdatamodeld */,
 			);
-			path = "ConfigCIProject";
+			path = ConfigCIProject;
 			sourceTree = "<group>";
 		};
 		BB24A243F465D32CEC5FEF56 /* Pods */ = {
@@ -116,7 +120,7 @@
 			);
 			dependencies = (
 			);
-			name = "ConfigCIProject";
+			name = ConfigCIProject;
 			productName = DemoCookieCutter;
 			productReference = 38FB2A4D271426F900C002F9 /* ConfigCIProject.app */;
 			productType = "com.apple.product-type.application";
@@ -349,7 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49VJQXHTX6;
-				INFOPLIST_FILE = "ConfigCIProject/Info.plist";
+				INFOPLIST_FILE = ConfigCIProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,7 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49VJQXHTX6;
-				INFOPLIST_FILE = "ConfigCIProject/Info.plist";
+				INFOPLIST_FILE = ConfigCIProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
