@@ -1,0 +1,6 @@
+framework module Pods____cookiecutter_project_name___ {
+  umbrella header "Pods-ConfigCIProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
