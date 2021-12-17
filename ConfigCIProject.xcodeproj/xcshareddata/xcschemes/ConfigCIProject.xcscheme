@@ -33,6 +33,28 @@
             default = "YES">
          </TestPlanReference>
       </TestPlans>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "383CD147276C50CA00C0B02E"
+               BuildableName = "ConfigCIProjectUITests.xctest"
+               BlueprintName = "ConfigCIProjectUITests"
+               ReferencedContainer = "container:ConfigCIProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "383CD155276C50E000C0B02E"
+               BuildableName = "ConfigCIProjectTests.xctest"
+               BlueprintName = "ConfigCIProjectTests"
+               ReferencedContainer = "container:ConfigCIProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
